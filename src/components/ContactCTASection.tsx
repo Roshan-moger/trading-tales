@@ -40,7 +40,7 @@ const ContactCTASection = () => {
             <div className="flex flex-col md:flex-row items-center justify-center gap-6 mb-10">
               <div className="flex items-center gap-3 px-6 py-3 rounded-full bg-muted/50 border border-border">
                 <Phone className="w-5 h-5 text-gold" />
-                <span className="font-medium">+91 76196 18640</span>
+                <span className="font-medium">+91 7483487822</span>
               </div>
               <div className="flex items-center gap-3 px-6 py-3 rounded-full bg-muted/50 border border-border">
                 <MapPin className="w-5 h-5 text-gold" />
@@ -51,13 +51,13 @@ const ContactCTASection = () => {
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button variant="emerald" size="xl" className="group" asChild>
-                <a href="https://wa.me/917619618640" target="_blank" rel="noopener noreferrer">
+                <a href="https://wa.me/7483487822" target="_blank" rel="noopener noreferrer">
                   <MessageCircle className="w-5 h-5 group-hover:scale-110 transition-transform" />
                   Chat on WhatsApp
                 </a>
               </Button>
               <Button variant="hero" size="xl" className="group" asChild>
-                <a href="https://t.me/+33ey24fbeAxIMzA1" target="_blank" rel="noopener noreferrer">
+                <a href="https://t.me/+33ey24fbeAxlMzA1" target="_blank" rel="noopener noreferrer">
                   <Send className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
                   Join Free Telegram Now
                 </a>

@@ -44,13 +44,13 @@ const HeroSection = () => {
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16">
             <Button variant="hero" size="xl" className="group" asChild>
-              <a href="https://t.me/+33ey24fbeAxIMzA1" target="_blank" rel="noopener noreferrer">
+              <a href="https://t.me/+33ey24fbeAxlMzA1" target="_blank" rel="noopener noreferrer">
                 <Send className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
                 Join Free Telegram Channel
               </a>
             </Button>
             <Button variant="emerald" size="xl" className="group" asChild>
-              <a href="https://wa.me/917619618640" target="_blank" rel="noopener noreferrer">
+              <a href="https://wa.me/7483487822" target="_blank" rel="noopener noreferrer">
                 <MessageCircle className="w-5 h-5 group-hover:scale-110 transition-transform" />
                 Start Mentorship – WhatsApp Now
               </a>
