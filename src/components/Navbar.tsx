@@ -39,7 +39,7 @@ const Navbar = () => {
             {/* CTA Button */}
             <div className="hidden md:flex items-center gap-4">
               <Button variant="gold" size="sm" asChild>
-                <a href="https://t.me/+33ey24fbeAxIMzA1" target="_blank" rel="noopener noreferrer">
+                <a href="https://t.me/+33ey24fbeAxlMzA1" target="_blank" rel="noopener noreferrer">
                   <Send className="w-4 h-4" />
                   Join Telegram
                 </a>
