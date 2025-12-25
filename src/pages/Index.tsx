@@ -1,13 +1,45 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import { Helmet } from "react-helmet-async";
+import Navbar from "@/components/Navbar";
+import HeroSection from "@/components/HeroSection";
+import WhatWeTeachSection from "@/components/WhatWeTeachSection";
+import TestimonialsSection from "@/components/TestimonialsSection";
+import GallerySection from "@/components/GallerySection";
+import ContactCTASection from "@/components/ContactCTASection";
+import DisclaimerFooter from "@/components/DisclaimerFooter";
 
 const Index = () => {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
-    </div>
+    <>
+      <Helmet>
+        <title>TradingTales - Premium Forex & Stock Trading Mentorship</title>
+        <meta 
+          name="description" 
+          content="Learn Forex and Stock trading from market experts. Join 400+ students who transformed their trading with our premium mentorship program. No fake tips, only real learning and discipline." 
+        />
+        <meta name="keywords" content="forex trading, stock trading, trading mentorship, learn trading, forex education, trading psychology, risk management" />
+        <link rel="canonical" href="https://tradingtales.com" />
+        
+        {/* Open Graph */}
+        <meta property="og:title" content="TradingTales - Premium Forex & Stock Trading Mentorship" />
+        <meta property="og:description" content="Learn Forex and Stock trading from market experts. Join 400+ students who transformed their trading career." />
+        <meta property="og:type" content="website" />
+        
+        {/* Twitter Card */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="TradingTales - Premium Forex & Stock Trading Mentorship" />
+        <meta name="twitter:description" content="Learn Forex and Stock trading from market experts. No fake tips, only real learning." />
+      </Helmet>
+
+      <main className="min-h-screen bg-background">
+        <Navbar />
+        <HeroSection />
+        <WhatWeTeachSection />
+        <TestimonialsSection />
+        <GallerySection />
+        <ContactCTASection />
+        <DisclaimerFooter />
+      </main>
+    </>
   );
 };
 
